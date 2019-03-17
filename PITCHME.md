@@ -6,7 +6,7 @@
 
 "A delightful language for reliable webapps."
 
-Notes:
+Note:
 - First things first, what is Elm?
 - Elm describes itself as "A delightful language for reliable webapps" - well beging delighted and producing reliable code are grounds for happiness, but even given my time limit I think its worth going a bit deeper, so why does it make me happy
 
@@ -14,7 +14,7 @@ Notes:
 
 ## Its Not JAVASCRIPT
 
-Notes:
+Note:
 - Because its not Javascript...
 - Actually that's too easy - and its not really helpful. Javascript is an immensley capable language and its ubiquity makes something like elm possible - it would be better to talk about what elm is rather than what its not, so elm is three things
 
@@ -27,7 +27,7 @@ Notes:
 * Only supports Pure Functions
     * NO SIDE EFFECTS!
 
-Notes:
+Note:
 
 - The first thing Elm is is a language
 - Its Strictly typed - this makes the compiler your friend and there is sufficent depth in the Elm type system to be interesting (?? pick this up where) withou being overwhelming
@@ -39,7 +39,7 @@ Notes:
 
 * TEA - Image of Tea Service
 
-Notes:
+Note:
 - TEA!
 
 ---
@@ -50,7 +50,7 @@ Notes:
 
 * Model -> View -> Update
 
-Notes:
+Note:
 - In this case The Elm Architecture, which is the Model, View, Update pattern - which evolved in Elm and is the inspiration for Redux and by extension a lot of contemporary thinking
 - Pragmatically this provides a framework in which Elm runs your pure functions and handles the messy bits
 
@@ -61,7 +61,7 @@ Notes:
 * Update: `update : Msg -> Model -> (Model, Cmd Msg)`
 
 
-Notes:
+Note:
 
 - In a bit more detail, the model defines the current state
 - view is a function that takes the model and translates it into the HTML to be displayed
@@ -72,7 +72,7 @@ Notes:
 
 # So what's the third thing?
 
-Notes:
+Note:
 
 - You may recall that I said Elm was 3 things - I've described the first two, the Language and the Framework the third is
 
@@ -80,7 +80,7 @@ Notes:
 
 # Philosophy
 
-Notes:
+Note:
 
 - Philosophy
 - It seems to me that the creator of the language and the community growing around Elm have a philosophy that defines the approach both to creating the language and to writing applications, this starts with the notion that there should be one way to do things and so long as that works well there's no need to add more. That the type system and the compiler should make adding to or refactoring your application an easy and comfortable experience. And extends to the functional programming ideal of making invalid states unrepresentable in your model (which sits nicely with making changes to your code safe and easy).
