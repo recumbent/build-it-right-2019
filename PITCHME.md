@@ -78,10 +78,72 @@ Note:
 
 ---
 
-# Philosophy
+# Its opinionated
 
 Note:
 
-- Philosophy
+- Both the language and community have opinions about how things should be done, one of the core tennents is that there should be one way of doing things - for so long as that is good enough. So you format code using the elm format tool and
+
 - It seems to me that the creator of the language and the community growing around Elm have a philosophy that defines the approach both to creating the language and to writing applications, this starts with the notion that there should be one way to do things and so long as that works well there's no need to add more. That the type system and the compiler should make adding to or refactoring your application an easy and comfortable experience. And extends to the functional programming ideal of making invalid states unrepresentable in your model (which sits nicely with making changes to your code safe and easy).
+
+- This doesn't mean that the current choices are immutable, more that there's not endless re-invention of the wheel and that we can worry less about what the "right" way to do things is.
+
+- And this starts to get to why Elm makes me happy
+
+---
+
+# Constraints
+
+Note:
+
+Elm places constraints on us
+- It has a narrow focus, it exists to create web client applications and nothing else
+- The language and type system is deliberately limited, this makes it easier to learn without particularly limiting your ability to express models and logic
+- You have a very limited capability to interact directly with javascript - there is no Foreign Function Interfac
+- BUT
+
+---
+
+# *Enabling* Constraints
+
+* Only write the code that only you can write
+
+Note:
+These are *enabling* constraints - these are thing that make it easier for me to effectively deliver value.
+- From a language point of view the fact that functions are pure and other language features mean that the compiler and runtime can produce very efficient javascript (compact and fast) that won't error.
+- From a developer point of view I don't have to waste effort making unnecessary choices - be that in the language constructs I use, or the patterns I follow - and I can focus on what actually adds value which is to "only write the code that only you can write"
+- These constraints are not limiting, there are a number of companies who I think would argue that their use of Elm provides them with a competitive advantage.
+
+---
+
+# Pit of success PICTURE
+
+Note:
+Put another way elm helps me fall into the pit of success.
+
+Of course none of these attributes are unique to Elm, the strong typing, the functional approach, the patterns, they can all be found and applied in other languages and other ecosystems - where Elm is nice is in that it brings all of these things together
+
+---
+
+Example? Timing...
+
+---
+
+# Why does Elm make me happy?
+
+It helps me 
+
+** Build IT Right **
+
+Note:
+
+So why does Elm make me happy - why did I proprose a session for this conference?
+
+Because I believe Elm helps me
+
+BUILD IT RIGHT!
+
+*Thankyou*
+
+---
 
