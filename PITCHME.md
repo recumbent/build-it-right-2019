@@ -41,10 +41,10 @@ Note:
 
 ---
 
-* TEA - Image of Tea Service
+![TEA](assets/teapot.jpg)
 
 Note:
-- TEA! Because of course tea makes me happy...
+- TEA! Because of course tea makes one happy...
 
 ---
 
@@ -131,7 +131,7 @@ These are *liberating* constraints - these are thing that make it easier for me 
 
 ---
 
-# Pit of success PICTURE
+![Pit of success](assets/pit-of-success.jpg)
 
 Note:
 Put another way elm helps me fall into the pit of success.
