@@ -12,7 +12,7 @@ Note:
 
 ---
 
-## Its Not JAVASCRIPT
+## Its _*Not*_ JAVASCRIPT
 
 Note:
 - Because its not Javascript...
@@ -22,10 +22,14 @@ Note:
 
 ## Elm Language:
 
-* Strictly Typed
-* Functional
-* Only supports Pure Functions
-    * NO SIDE EFFECTS!
+@ul
+
+- Strictly Typed
+- Functional
+- Only supports Pure Functions
+    - NO SIDE EFFECTS!
+
+@ulend
 
 Note:
 
@@ -48,7 +52,11 @@ Note:
 **E**lm
 **A**rchitecture
 
-* Model -> View -> Update
+@ul
+
+- Model -> View -> Update
+
+@ulend
 
 Note:
 - In this case The Elm Architecture, which is the Model, View, Update pattern - which evolved in Elm and is the inspiration for Redux and by extension a lot of contemporary thinking
