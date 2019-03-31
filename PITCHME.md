@@ -44,7 +44,7 @@ Note:
 * TEA - Image of Tea Service
 
 Note:
-- TEA!
+- TEA! Because of course tea makes me happy...
 
 ---
 
@@ -59,15 +59,18 @@ Note:
 @ulend
 
 Note:
-- In this case The Elm Architecture, which is the Model, View, Update pattern - which evolved in Elm and is the inspiration for Redux and by extension a lot of contemporary thinking
+- In this case Tea is "The Elm Architecture" - specifically the Model, View, Update pattern - which evolved in Elm and is the inspiration for Redux and by extension a lot of contemporary thinking in client application frameworks
 - Pragmatically this provides a framework in which Elm runs your pure functions and handles the messy bits
 
 ---
+
+@ul
 
 * Model
 * View: `view : Model -> Html Msg`
 * Update: `update : Msg -> Model -> (Model, Cmd Msg)`
 
+@ulend
 
 Note:
 
@@ -112,12 +115,16 @@ Elm places constraints on us
 
 ---
 
-# *Enabling* Constraints
+# *Liberating* Constraints
 
-* Only write the code that only you can write
+@ul
+
+@quote[Only write the code that only you can write]
+
+@ulend
 
 Note:
-These are *enabling* constraints - these are thing that make it easier for me to effectively deliver value.
+These are *liberating* constraints - these are thing that make it easier for me to effectively deliver value.
 - From a language point of view the fact that functions are pure and other language features mean that the compiler and runtime can produce very efficient javascript (compact and fast) that won't error.
 - From a developer point of view I don't have to waste effort making unnecessary choices - be that in the language constructs I use, or the patterns I follow - and I can focus on what actually adds value which is to "only write the code that only you can write"
 - These constraints are not limiting, there are a number of companies who I think would argue that their use of Elm provides them with a competitive advantage.
@@ -130,10 +137,6 @@ Note:
 Put another way elm helps me fall into the pit of success.
 
 Of course none of these attributes are unique to Elm, the strong typing, the functional approach, the patterns, they can all be found and applied in other languages and other ecosystems - where Elm is nice is in that it brings all of these things together
-
----
-
-Example? Timing...
 
 ---
 
