@@ -109,8 +109,8 @@ Note:
 
 Elm places constraints on us
 - It has a narrow focus, it exists to create web client applications and nothing else
-- The language and type system is deliberately limited, this makes it easier to learn without particularly limiting your ability to express models and logic
-- You have a very limited capability to interact directly with javascript - there is no Foreign Function Interfac
+- The language and type system is deliberately limited - no higher kinded types for example
+- You have a very limited capability to interact directly with javascript - there is no Foreign Function Interface
 - BUT
 
 ---
@@ -126,7 +126,7 @@ Elm places constraints on us
 Note:
 These are *liberating* constraints - these are thing that make it easier for me to effectively deliver value.
 - From a language point of view the fact that functions are pure and other language features mean that the compiler and runtime can produce very efficient javascript (compact and fast) that won't error.
-- From a developer point of view I don't have to waste effort making unnecessary choices - be that in the language constructs I use, or the patterns I follow - and I can focus on what actually adds value which is to "only write the code that only you can write"
+- From a developer point of view the simplicity of the language and the type system makes it easier to learn, and once learnt I waste less effort making unnecessary choices - be that in the language constructs I use, or the patterns I follow - and I can focus on what actually adds value which is to "only write the code that only you can write"
 - These constraints are not limiting, there are a number of companies who I think would argue that their use of Elm provides them with a competitive advantage.
 
 ---
@@ -140,15 +140,29 @@ Of course none of these attributes are unique to Elm, the strong typing, the fun
 
 ---
 
+![sunshine](assets/sunshine.jpg)
+
+![roses](assets/roses.jpg)
+
+Note:
+
+So its all sunshine and roses then? Well no... so long as you can live within the constraints yes, but to take the obvious example the lack of a foreign function interface means more work to solve some problems like a dependency on javascript SDK. In addition the styling story is still being worked out and I don't think there will ever be a single way to resolve that.
+
+---
+
 # Why does Elm make me happy?
+
+@ul
 
 It helps me 
 
 ** Build IT Right **
 
+@ulend
+
 Note:
 
-So why does Elm make me happy - why did I proprose a session for this conference?
+But to return to the original question - why, as a software engineer, does Elm make me happy and why did I proprose a session for this conference?
 
 Because I believe Elm helps me
 
