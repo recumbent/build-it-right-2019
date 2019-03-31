@@ -140,9 +140,9 @@ Of course none of these attributes are unique to Elm, the strong typing, the fun
 
 ---
 
-![sunshine](assets/sunshine.jpg)
+![sunshine](assets/sunshine.png)
 
-![roses](assets/roses.jpg)
+![roses](assets/roses.png)
 
 Note:
 
