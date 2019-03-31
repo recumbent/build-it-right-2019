@@ -41,7 +41,9 @@ Note:
 
 ---
 
+@snap[middle]
 ![TEA](assets/teapot.jpg)
+@snapend
 
 Note:
 - TEA! Because of course tea makes one happy...
@@ -140,9 +142,13 @@ Of course none of these attributes are unique to Elm, the strong typing, the fun
 
 ---
 
-![sunshine](assets/sunshine.jpg)
+@snap[west]
+![sunshine](assets/sunshine.png)
+@snapend
 
-![roses](assets/roses.jpg)
+@snap[east]
+![roses](assets/roses.png)
+@snapend
 
 Note:
 
