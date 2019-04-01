@@ -5,4 +5,10 @@
 
 ## Desktop
 
+Windows:
+
 `docker run -it -v d:/dev/presentations/build-it-right-2019:/repo -p 9000:9000 gitpitch/desktop:pro`
+
+Mac:
+
+`docker run -it -v /Users/james.murphy/src/build-it-right-2019:/repo -p 9000:9000 gitpitch/desktop:pro`
