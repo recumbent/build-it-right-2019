@@ -12,8 +12,6 @@
 
 ---
 
-Note:
-
 - The first thing Elm is is a language
 - Its a functional language with an ML like syntax - I believe that functional languages and functional programming have the potential to be highly productive so this is a good start
 - Its Statically typed - but with impressive type inference, this makes the compiler your friend and there is sufficent depth in the Elm type system to allow you to create complex models as needed.
