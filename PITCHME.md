@@ -146,7 +146,7 @@ Note:
 These are *liberating* constraints - these are thing that make it easier for me to effectively deliver value.
 
 - From a language point of view the fact that functions are pure and other language features mean that the compiler and runtime can produce very efficient javascript (both fast and compact) that won't error.
-- From a developer point of view the small size of the core language and the type system makes it easier to learn, and once learnt I waste less effort making unnecessary choices - be that in the language constructs I use, or the patterns I follow - and I can focus on what actually adds value which is to "only write the code that only we can write"
+- From a developer point of view it hits the golidlocks zone not too big and not too small. Its easy to learn, and once learnt demands less effort in making unnecessary choices - be that in the language constructs I use, or the patterns I follow - and I can focus on what actually adds value which is to "only write the code that only we can write"
 
 ---
 
@@ -154,8 +154,7 @@ These are *liberating* constraints - these are thing that make it easier for me 
 
 Note:
 Put another way elm helps me slide into the pit of success.
-
-Of course none of these attributes are unique to Elm, the strong typing, the functional approach, the patterns, they can all be found and applied in other languages and other ecosystems - where Elm is nice is in that it brings all of these things together
+at it brings all of these things together
 
 ---
 
@@ -169,7 +168,7 @@ Of course none of these attributes are unique to Elm, the strong typing, the fun
 
 Note:
 
-So its all sunshine and roses then? Well no... so long as you can live within the constraints yes, but its its own language and ecosystem and, to take the obvious example, the lack of a foreign function interface means more work to solve some problems like a hard dependency on a javascript SDK. In addition the styling story - making your app look good - is still being worked out and I don't think there will ever be a single best way to resolve that.
+So its all sunshine and roses then? Well no... so long as you can live within the constraints yes, but its its own language and ecosystem and, to take the obvious example, the lack of a foreign function interface means more work to solve some problems like a hard dependency on a javascript SDK.
 
 ---
 
@@ -189,7 +188,9 @@ Note:
 
 But to return to the original question - why, as a software engineer, does Elm make me happy and why did I proprose a session for this conference?
 
-Because I believe Elm helps me
+Well... whilst none of these thing I like - the strong typing, the functional approach, the patterns - are unique to Elm and can be found and applied in other languages and other ecosystems - where Elm is nice is in that it brings all of these things together in an elegant package
+
+And because I believe Elm helps me
 
 BUILD IT RIGHT!
 
