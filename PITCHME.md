@@ -96,7 +96,7 @@ Note:
 - In a bit more detail, the model defines the current state
 - view is a function that takes the model and translates it into the HTML to be displayed - we can use functions to compose a complex view from simple pieces
 - update is a function that takes a message - which given that Elm is statically typed, comes from a list we've defined for ourselves - and the current model. It then returns a new model changed as required by the message (and the parameters attached to the message), it may also return a command which typically could be an instruction to trigger an http request to send data to or get data from a server. The response to the request will come back as a new message triggering a new invocation of the update function.
-- And this is how we square the circle of no side effects - the code I write is pure, I can reason about it, I can test it. External events - things that are non-deterministic - are handled by the runtime framework and delivered as strongly typed messages.
+- And this is how we square the circle of no side effects - the code I write is pure, I can reason about it, I can test it. External events, things that are non-deterministic - are handled by the runtime framework and delivered as strongly typed messages.
 - The code, the application, is then event driven and the pieces easy to reason about.
 
 ---
@@ -113,7 +113,7 @@ Note:
 
 Note:
 
-- It seems to me that Evan Czaplicki, the creator of Elm, and the community growing around it have a philosophy that defines the approach both to creating the language and to writing applications, this starts with the notion that there should be one way to do things and so long as that works well there's no need to add more. That the type system and the compiler should make adding to or refactoring your application an easy and comfortable experience. And extends to the functional programming ideal of making invalid states unrepresentable in your model (which sits nicely with making changes to your code safe and easy).
+- It seems to me that Evan Czaplicki, the creator of Elm, and the community growing around it have a philosophy that defines the approach both to creating the language and to writing applications, this starts with the notion that there should be one way to do things and so long as that works well there's no need to add more - and applies this (and other ideas) to the language and to the package ecosystem. There's far more to this than I have time to discuss
 
 - This doesn't mean that the current choices are immutable, more that there's not endless re-invention of the wheel and that we can worry less about what the "right" way to do things is.
 
@@ -125,7 +125,7 @@ Note:
 
 Note:
 
-Elm places constraints on us - some of the are:
+Elm places constraints on us - some of theses are:
 
 - That it has a narrow focus, it exists to create web client applications and nothing else
 - That the language and type system are deliberately limited - no higher kinded types for example
@@ -143,18 +143,19 @@ Elm places constraints on us - some of the are:
 @ulend
 
 Note:
+
 These are *liberating* constraints - these are thing that make it easier for me to effectively deliver value.
 
 - From a language point of view the fact that functions are pure and other language features mean that the compiler and runtime can produce very efficient javascript (both fast and compact) that won't error.
-- From a developer point of view it hits the golidlocks zone not too big and not too small. Its easy to learn, and once learnt demands less effort in making unnecessary choices - be that in the language constructs I use, or the patterns I follow - and I can focus on what actually adds value which is to "only write the code that only we can write"
+- From a developer point of view it hits the golidlocks zone not too big and not too small. Its easy to learn, and once learnt demands less effort in making unnecessary choices - be that in the language constructs I use, or the patterns I follow - and I can focus on what actually adds value which is to "only write the code that only I can write"
 
 ---
 
 ![Pit of success](assets/pit-of-success.jpg)
 
 Note:
+
 Put another way elm helps me slide into the pit of success.
-at it brings all of these things together
 
 ---
 
@@ -168,7 +169,7 @@ at it brings all of these things together
 
 Note:
 
-So its all sunshine and roses then? Well no... so long as you can live within the constraints yes, but its its own language and ecosystem and, to take the obvious example, the lack of a foreign function interface means more work to solve some problems like a hard dependency on a javascript SDK.
+So its all sunshine and roses then? Well no... so long as you can live within the constraints yes, but it is a distinct language and ecosystem to learn and, to take the obvious example, the lack of a foreign function interface means more work to solve some problems like a hard dependency on a javascript SDK.
 
 ---
 
@@ -188,9 +189,9 @@ Note:
 
 But to return to the original question - why, as a software engineer, does Elm make me happy and why did I proprose a session for this conference?
 
-Well... whilst none of these thing I like - the strong typing, the functional approach, the patterns - are unique to Elm and can be found and applied in other languages and other ecosystems - where Elm is nice is in that it brings all of these things together in an elegant package
+Well... whilst none of the things I like - the strong typing, the functional approach, the patterns and so on - are unique to Elm and all can be found and applied in other languages and other ecosystems - where Elm brings joy is in that it brings all of these things together in an elegant package
 
-And because I believe Elm helps me
+This leads me to believe that Elm helps me
 
 BUILD IT RIGHT!
 
